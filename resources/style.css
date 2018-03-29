@@ -1,15 +1,21 @@
 .header{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
 }
 
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
 .header h1{
   color: MediumAquamarine;
   font-size: 14px;
-  align-items: center;
 }
 
 .header a{
@@ -19,5 +25,4 @@
 .header li {
   list-style: none;
   display: inline-block;
-  text-align: right;
 }
