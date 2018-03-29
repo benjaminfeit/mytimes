@@ -1,0 +1,23 @@
+.header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.header h1{
+  color: MediumAquamarine;
+  font-size: 14px;
+  align-items: center;
+}
+
+.header a{
+  color: black;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+}
