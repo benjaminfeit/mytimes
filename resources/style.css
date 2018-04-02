@@ -33,22 +33,25 @@
 
 .column{
   display: flex;
-  flex-direction: column;
 }
 
 .column .large{
   display: flex;
   width: 630px;
+  flex-direction: column;
 }
 
 .column .medium{
   display: flex;
   width: 300px;
+  flex-direction: column;
 }
 
 .column .small{
   display: flex;
   width: 240px;
+  flex-direction: column;
+  padding-right: 10px;
 }
 
 #phish{
