@@ -33,6 +33,10 @@
 
 .column{
   display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+  border-bottom: 1px solid black;
 }
 
 .column .large{
@@ -51,43 +55,129 @@
   display: flex;
   width: 240px;
   flex-direction: column;
-  padding-right: 10px;
 }
 
 #phish{
   border: 1px solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  display: flex;
+}
+
+#phish p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 #arizona{
   border: 1px solid black;
 }
 
+#arizona p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 #orca{
   border: 1px solid black;
 }
 
+#orca p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#orca h2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
 #earth{
   border: 1px solid black;
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+#earth p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 #burgers{
   border: 1px solid black;
 }
 
+#burgers p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#burgers h2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
 #cameras{
   border: 1px solid black;
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+
+#cameras p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 #fbi{
   border: 1px solid black;
 }
 
+#fbi h1{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+#fbi p{
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+  }
+
 #cats{
   border: 1px solid black;
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+#cats p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 #brooklyn{
   border: 1px solid black;
+}
+
+#brooklyn p{
+      font-family: Georgia;
+      font-size: 17px;
+      color: black;
 }
 
 #cookie{
@@ -96,4 +186,10 @@
 
 #news{
   border: 1px solid black;
+}
+
+#news p{
+      font-family: Georgia;
+      font-size: 17px;
+      color: black;
 }
