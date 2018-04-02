@@ -6,16 +6,19 @@
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
 .logo-title {
   display: flex;
   align-items: center;
+  padding-left: 10px;
 }
 
 .header h1{
   color: MediumAquamarine;
   font-size: 14px;
+  padding-left: 10px;
 }
 
 .header a{
@@ -25,4 +28,67 @@
 .header li {
   list-style: none;
   display: inline-block;
+  padding: 5px 30px;
+}
+
+.column{
+  display: flex;
+}
+
+.column.large{
+  display: flex;
+  width: 630px;
+}
+
+.column.medium{
+  display: flex;
+  width: 300px;
+}
+
+.column.right{
+  display: flex;
+}
+
+#phish{
+  border: 1px solid black;
+}
+
+#arizona{
+  border: 1px solid black;
+}
+
+#orca{
+  border: 1px solid black;
+}
+
+#earth{
+  border: 1px solid black;
+}
+
+#burgers{
+  border: 1px solid black;
+}
+
+#cameras{
+  border: 1px solid black;
+}
+
+#fbi{
+  border: 1px solid black;
+}
+
+#cats{
+  border: 1px solid black;
+}
+
+#brooklyn{
+  border: 1px solid black;
+}
+
+#cookie{
+  border: 1px solid black;
+}
+
+#news{
+  border: 1px solid black;
 }
