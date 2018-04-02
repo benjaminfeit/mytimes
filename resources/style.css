@@ -33,20 +33,22 @@
 
 .column{
   display: flex;
+  flex-direction: column;
 }
 
-.column.large{
+.column .large{
   display: flex;
   width: 630px;
 }
 
-.column.medium{
+.column .medium{
   display: flex;
   width: 300px;
 }
 
-.column.right{
+.column .small{
   display: flex;
+  width: 240px;
 }
 
 #phish{
