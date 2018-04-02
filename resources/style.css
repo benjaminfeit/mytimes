@@ -61,6 +61,7 @@
   border: 1px solid black;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   display: flex;
+  height:300px;
 }
 
 #phish p{
@@ -68,6 +69,7 @@
   font-weight: bold;
   font-size: 40px;
   color: white;
+  margin-top: 0px;
 }
 
 #arizona{
@@ -101,6 +103,7 @@
   border: 1px solid black;
   display: inline-flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
 }
 
 #earth p{
@@ -131,6 +134,7 @@
   border: 1px solid black;
   display: inline-flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
 }
 
 #cameras p{
@@ -161,6 +165,7 @@
   border: 1px solid black;
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
 }
 
 #cats p{
